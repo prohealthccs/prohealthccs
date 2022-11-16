@@ -1,6 +1,6 @@
-import * as THREE from '/prohealthccs/three.js';
-import { OrbitControls } from '/prohealthccs/OrbitControls.js';
-import { Clock } from '/prohealthccs/Clock.js';
+import * as THREE from 'https://prohealthccs.github.io/prohealthccs/three.js';
+import { OrbitControls } from 'https://prohealthccs.github.io/prohealthccs/OrbitControls.js';
+import { Clock } from 'https://prohealthccs.github.io/prohealthccs/Clock.js';
 
 // Scene, Camera, Renderer
 var star 
