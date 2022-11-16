@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<html lang="en" class="overflow-x-hidden">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="img/prohealthlogo.png">
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+  <!-- Primary Meta Tags -->
+    <meta name="title" content="Prohealth Community Care Services">
+    <meta name="description" content="NDIS accredited community aged and disability support services, We C.A.R.E">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://prohealth.care/">
+    <meta property="og:title" content="Prohealth Community Care Services">
+    <meta property="og:description" content="NDIS accredited community aged and disability support services, We C.A.R.E">
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://prohealth.care/">
+    <meta property="twitter:title" content="Prohealth Community Care Services">
+    <meta property="twitter:description" content="NDIS accredited community aged and disability support services, We C.A.R.E">
+    <meta property="twitter:image" content="">
+
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prohealth | Home</title>
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<loader id="loader" class=" duration-500 ease-out fixed w-screen h-screen bg-gradient-to-tr from-violet-500 to-violet-700 z-50 flex place-content-center flex-col">
+    <h1 style="font-family: 'Paytone One', sans-serif;" class="text-5xl text-white m-auto mb-4">
+        prohealth.
+    </h1>
+    <div id="progressbarcontainer" class="h-2 w-52 bg-white m-auto mt-0">
+        <div id="progressbar" style="width: 0px; transition-duration: 700ms;" class="ease-out h-2 bg-gradient-to-r from-yellow-300 to-yellow-400">
+
+        </div>
+    </div>
+    <script src="loadingscreen.js"></script>
+</loader>
+
+
+<div id="modal" class="m-auto flex z-30 hidden w-screen md:translate-y-[150%] md:translate-x-[32%] place-content-center h-32  md:h-20 relative md:fixed">
+    <div class="hidden md:flex h-8 w-8 z-40 bg-violet-600 rounded-full absolute -translate-y-3 translate-x-24 animate-pulse">
+
+    </div>
+<div class="m-auto md:mr-32 absolute md:rounded-2xl md:border md:border-violet-100 bg-white p-4 md:p-8 md:shadow-lg h-20 md:h-auto">
+  <div class="items-center sm:flex">
+    <span
+      class="md:flex-col md:inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full hidden bg-violet-500 text-white"
+    >
+      <svg
+        class="h-3 w-3"
+        fill="currentColor"
+        viewbox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18 3a1 1 0 00-1.447-.894L8.763 6H5a3 3 0 000 6h.28l1.771 5.316A1 1 0 008 18h1a1 1 0 001-1v-4.382l6.553 3.276A1 1 0 0018 15V3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </span>
+
+    <p  class="hidden md:flex mt-3 text-lg font-medium sm:mt-0 sm:ml-3">
+      You've got a new message
+    </p>
+  </div>
+
+  <p class="text-center md:text-left md:mt-4 text-gray-500">
+   We're now hiring! 
+  </p>
+
+  <div class="mt-2 md:mt-6 sm:flex">
+    <a
+      class="inline-block w-full rounded-lg bg-gradient-to-tr from-violet-500 to-violet-600 px-5 py-3 text-center text-sm font-semibold text-white w-auto"
+      href="apply.html"
+    >
+      Take a Look
+    </a>
+
+    <div onclick="hiringmodalremove()" class="cursor-pointer mt-3 inline-block  rounded-lg bg-gray-50 px-5 py-3 text-center text-sm font-semibold text-gray-500 sm:mt-0 sm:ml-3 w-auto">
+      Mark as Read
+    </div>
+  </div>
+</div>
+</div>
+
+
+<body class="bg-white overflow-x-hidden min-w-[100vw] max-w-screen">
+<header class="overflow-x-hidden overflow-y-hidden w-screen h-24 bg-white border-b-2 absolute">
+    <div id="wrapper" class="max-w-screen-xl h-24 m-auto flex place-content-between">
+        <ul id="left" class="mx-4 flex place-content-center">
+            <li class="flex place-content-center m-auto ">
+              <img alt="Prohealth Logo" src="img/prohealthlogo.png" class="p-1 bg-violet-500 rounded-lg h-12 m-auto translate-y-[0.35rem] mr-4">
+                <h1 style="font-family: 'Paytone One', sans-serif;" class="text-2xl md:text-3xl text-violet-500 m-auto">
+                    prohealth<span class="text-violet-300 animate-pulse"> .</span>
+                </h1>
+            </li>
+        </ul>
+        <ul id="right" class="flex mr-4 right-0 m-auto">
+            <li>
+            <a aria-label="Home" href="index.html" class="pointer-events-none"> <div class="hidden md:flex nav-active" >
+                <i class="fa-solid fa-house fa-xl  m-auto"> </i>
+            </div></a>
+          </li>
+
+            <li>
+            <a aria-label="Contact Us" href="contact.html" class="hidden md:flex nav-inactive" >
+                <i class="fa-solid fa-envelope fa-xl  m-auto"> </i>
+            </a>
+          </li>
+
+            <li>
+            <a aria-label="Our Services" href="services.html" ><div class="hidden md:flex nav-inactive " >
+                <i class="fa-solid fa-circle-info fa-xl m-auto"> </i>
+            </div></a>
+          </li>
+
+            <li>
+              <a aria-label="Apply" href="apply.html"> <div class="hidden md:flex nav-inactive" >
+                <i class="fa-solid fa-user fa-xl m-auto"> </i>
+            </div></a>
+          </li>
+
+            <li>
+            <div  onclick="openmenu()" class="z-50   cursor-pointer md:hidden shadow-2xl duration-200 h-12 w-12 text-white hover:text-violet-500  bg-gradient-to-tr from-violet-500 to-violet-600 hover:from-slate-200 hover:to-slate-200 flex place-content-center rounded-lg hover:rounded-xl " >
+                <i id="menubutton" class="fa-solid fa-bars fa-xl m-auto"> </i>
+            </div>
+          </li>
+            
+        </ul>
+    </div>
+</header>  
+<div id="menu" class="z-40 flex md:hidden duration-300 ease-out translate-x-56 fixed w-48 h-screen bg-slate-900 backdrop-blur-sm right-0 flex-col">
+<div class="absolute right-4 top-32 font-bold text-white">
+
+<div class="my-8 flex flex-row">
+  <p class="m-auto order-2">
+    Home
+  </p>
+  <a aria-label="Home" href="index.html" class="pointer-events-none"> <div class="flex shadow-2xl mx-2 h-12 w-12 text-violet-400 bg-slate-200 place-content-center rounded-lg" >
+    <i class="fa-solid fa-house fa-xl  m-auto"> </i>
+</div></a>
+</div>
+
+<div class="my-8 flex flex-row">
+  <p class="m-auto order-2">
+    Contact Us
+  </p>
+
+<a  aria-label="Contact Us" href="contact.html" class="flex shadow-2xl duration-200 mx-2 h-12 w-12 text-white hover:text-violet-500 bg-gradient-to-tr from-violet-500 to-violet-600 hover:from-slate-200 hover:to-slate-200  place-content-center rounded-lg hover:rounded-xl" >
+   
+  <i class="fa-solid fa-envelope fa-xl  m-auto"> </i>
+</a>
+</div>
+
+<div class="my-8 flex flex-row">
+  <p class="m-auto order-2">
+    Services
+  </p>
+<a aria-label="Services" href="services.html" class="flex shadow-2xl duration-200 mx-2 h-12 w-12 text-white hover:text-violet-500  bg-gradient-to-tr from-violet-500 to-violet-600 hover:from-slate-200 hover:to-slate-200  place-content-center rounded-lg hover:rounded-xl " >
+    <i class="fa-solid fa-circle-info fa-xl m-auto"> </i></a>
+</a>
+</div>
+
+
+<div class="flex flex-row">
+  <p class="m-auto order-2">
+    Apply
+  </p>
+<a href="apply.html" aria-label="Contact Us" class="flex shadow-2xl duration-200 mx-2 h-12 w-12 text-white hover:text-violet-500  bg-gradient-to-tr from-violet-500 to-violet-600 hover:from-slate-200 hover:to-slate-200 place-content-center rounded-lg hover:rounded-xl " >
+    <i class="fa-solid fa-user fa-xl m-auto"> </i>
+</a>
+</div>
+</div>
+</div>
+<section  class="-z-20 bg-cover bg-gradient-to-tr from-white via-white to-white min-h-screen w-screen border-b-4 border-slate-700 px-8" >
+    <div class="bg-cover m-auto min-h-screen max-w-[1920px]">
+    <div id="wrapper" class=" m-auto min-h-screen max-w-screen-lg flex flex-row place-content-center">
+      <img alt="" src="img/bubble.webp" class=" absolute h-32 md:h-96 translate-y-[15vh]  md:translate-x-72 md:translate-y-[27vh] z-0 md:z-0">
+        <div class="flex m-auto md:ml-4 flex-col "> 
+            <h1 style="font-family: 'Paytone One', sans-serif;" class="reveal duration-200 z-0 mt-56 md:mt-50 text-center md:text-left  bg-clip-text text-transparent bg-gradient-to-tr from-violet-400 via-violet-500 to-violet-700 text-5xl md:text-7xl ml-0">
+                The services <br> you want, <br> the care you <br> need.
+            </h1>
+            <button class=" duration-300 mb-48 shadow-2xl m-auto md:mx-0 mt-20 hover:text-yellow-200 text-white hover:shadow-violet-500 hover:ring-[2px] bg-gradient-to-tr from-violet-500 via-violet-400 to-violet-500 text-md w-48 h-12 rounded-md font-bold flex flex-row">
+                <p class="m-auto mr-1 ml-3 drop-shadow-2xl">Take the first step</p> <i class="bg-clip-text text-transparent bg-gradient-to-tr from-yellow-200 to-yellow-300 fa-solid fa-arrow-up-right-from-square m-auto mr-[1.1rem]"></i>
+            </button>
+
+        </div>
+
+    </div>
+    <img alt="NDIS Registered Provider" src="img/ndisrp.png" class="w-32 m-auto bottom-0 mb-0 reveal ">
+  </div>
+</section> 
+
+
+</div>
+
+<div class="w-screen  bg-slate-900 shadow-2xl">
+<div id="features" class=" min-h-screen md:h-auto md:min-h-[384px] w-screen max-w-screen-xl m-auto bg-slate-900 flex flex-col py-8 md:flex-row place-content-evenly md:place-content-center text-center">
+  
+  <div class="flex flex-col m-auto text-white font-semibold text-3xl md:text-8xl my-4 drop-shadow-2xl reveal">
+    <i class="fa-solid fa-house-chimney m-auto mb-4">
+    </i>
+    <p class="m-auto text-2xl">
+      In-home care
+    </p>
+  </div>
+  <div class="flex flex-col m-auto text-white font-semibold text-3xl md:text-8xl my-4 drop-shadow-2xl delayreveal2">
+    <i class="fa-solid fa-person m-auto mb-4">
+    </i>
+    <p class="m-auto text-2xl">
+      Highly trained staff
+    </p>
+  </div>
+  <div class="flex flex-col m-auto text-white font-semibold text-3xl md:text-8xl my-4 drop-shadow-2xl delayreveal3">
+    <i class="fa-solid fa-comments m-auto mb-4">
+    </i>
+    <p class="m-auto text-2xl">
+      Person centered care
+    </p>
+  </div>
+</div>
+</div>
+<div id="about-us" class="bg-violet-600 min-h-screen w-screen px-8">
+
+  <div class="min-h-screen max-w-screen-lg m-auto flex flex-col md:flex-row place-content-center gap-16 ">
+
+    <div class="flex flex-col drop-shadow-2xl ">
+      <h2 style="font-family: 'Paytone One', sans-serif;" class="reveal text-5xl md:text-7xl text-center my-auto text-white mb-8">
+        About Us.
+      </h2>
+      <p class="reveal text-sm text-center md:text-left md:text-xl my-auto font-bold text-white w-auto md:w-[30rem] mt-0">
+        Prohealth Community Care Services is an organisation that is committed to providing person-centred care based on individualised care plans that recognise the uniqueness of each person.
+  
+        We specialise in providing the highest quality care for individuals with a disability, as well as older members of the community.
+        Our highly professional staff deliver high standard community care services to our clients. With us, you know you or your loved ones are in safe hands.
+      </p>
+      
+    </div>
+      <div  class="bg-violet-500 px-8 hidden h-2  mt-0 mb-0 w-screen md:w-auto md:h-screen m-auto md:flex place-content-center drop-shadow-xl">
+        <img  alt="Woman, smiling, sitting in an office" src="img/office.jpg" class="reveal rounded-md fa-solid fa-user text-yellow-400 m-auto text-9xl shadow-2xl shadow-violet-300">
+
+      </div>
+
+  </div>
+</div>
+<div class="w-screen bg-black">
+  <div id="world" class="max-w-screen-2xl m-auto overflow-x-hidden w-screen min-h-screen bg-slate-900 shadow-2xl flex flex-col md:flex-row">
+    <div class=" absolute lg:relative bg-transparent lg:bg-black  z-30 w-screen lg:w-[50vw] h-screen  flex flex-col place-content-center">
+      <h2 style="font-family: 'Paytone One', sans-serif;" class="reveal text-white text-center text-7xl md:text-5xl lg:text-7xl m-auto mb-4 md:mb-8">
+        Find us
+      </h2>
+      <p class="reveal text-white font-bold w-80 m-auto  text-lg  md:text-xs lg:text-xl  mt-0 text-center mb-0">
+        We operate in both regional and metro Victoria, we have carers in Ballarat,  Melbourne and Hamilton.
+      </p>
+      <i class="hidden md:block mt-16 m-auto text-[0rem] md:text-xl text-white fa-solid fa-left-right"></i>
+    </div>
+    <div class="flex h-screen overflow-x-hidden place-content-center bg-black"> 
+
+        <iframe scrolling="no" aria-label="Find us, Earth 3D render" class=" overflow-y-hidden brightness-110 cursor-move overflow-x-hidden scale-100 m-auto w-screen lg:w-[50vw] h-screen reveal" src="world.html" loading="lazy">
+
+        </iframe>
+       
+    </div>
+</div>
+
+</div>
+<footer class="h-24 p-4 bg-black flex place-content-center">
+  <div class="m-auto">
+    <p class="m-auto text-center font-bold text-white">Copyright © 2022 - All right reserved by Prohealth Community Care Services</p>
+  </div>
+</footer>
+</body>
+</html>
+
+
+<hidden class="hidden h-0 translate-x-0 xs:duration-500 opacity-0 duration-200 scale-y-0 md:scale-y-100">
+
+</hidden>
+
+<script>
+ScrollReveal({ reset: true }, { delay: 500 }).reveal('.reveal', {scale: 0.8});
+ScrollReveal({ reset: true }, { delay: 500 }).reveal('.delayreveal', {scale: 0.8});
+ScrollReveal({ reset: true }, { delay: 1000 }).reveal('.delayreveal2', {scale: 0.8});
+ScrollReveal({ reset: true }, { delay: 1500 }).reveal('.delayreveal3', {scale: 0.8});
+</script>
+<script async defer src="hiringmodal.js"></script>
+<script async defer src="menu.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
