@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" type="image/x-icon" href="img/prohealthlogo.png">
-
+    <script src="https://unpkg.com/scrollreveal@4"></script>
   <!-- Primary Meta Tags -->
     <meta name="title" content="Prohealth Community Care Services">
     <meta name="description" content="NDIS accredited community aged and disability support services, We C.A.R.E">
@@ -188,14 +188,83 @@
 
 
 </div>
-<footer class="h-24 p-4 bg-violet-500 flex place-content-center">
-  <div class="m-auto">
-    <p class="m-auto text-center font-bold text-white">Copyright © 2022 - All right reserved by Prohealth Community Care Services</p>
+<footer
+  aria-label="Site Footer"
+  class="bg-slate-900 text-white lg:grid lg:grid-cols-5"
+>
+  <div class="hidden lg:relative lg:col-span-2 lg:block">
+
+  </div>
+
+  <div class="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8 reveal">
+    <div class="grid grid-cols-1 gap-8 sm:grid-cols-2">
+      <div>
+        <p class="font-medium">
+          <span class="text-xs uppercase tracking-widest"> Call </span>
+
+          <a href="tel:0434-743-584" class="block text-2xl hover:opacity-75 sm:text-3xl" href="">
+            0434 743 584
+          </a>
+        </p>
+
+        <ul class="mt-8 space-y-2 text-sm">
+          <li>Monday to Friday: 8am - 5pm</li>
+          <li>Weekend: 10am - 5pm</li>
+        </ul>
+
+
+      </div>
+
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+        <div>
+          <p class="font-medium">Links</p>
+
+          <nav
+            aria-label="Footer Nav"
+            class="mt-4 flex flex-col space-y-2 text-sm text-gray-300"
+          >
+            <a class="hover:opacity-75" href="index.html"> Home </a>
+            <a class="hover:opacity-75" href="contact.html"> Contact Us </a>
+            <a class="hover:opacity-75" href="service.html"> Our Services </a>
+            <a class="hover:opacity-75" href="apply.html"> Apply </a>
+          </nav>
+        </div>
+
+        <div>
+          <p class="font-medium">Services</p>
+
+          <nav class="mt-4 flex flex-col space-y-2 text-sm text-gray-300">
+            <a class="hover:opacity-75" href="services.html/#supportcoordination"> Support Coordination </a>
+            <a class="hover:opacity-75" href="services.html/#disabilitysupport"> Disability Support </a>
+            <a class="hover:opacity-75" href="services.html/#specialistdisabilityaccomodation"> Specialist Disability Accommodation  </a>
+            <a class="hover:opacity-75" href="services.html/#communitynursingcare"> Community Nursing Care  </a>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-12 border-t border-gray-800 pt-12">
+      <div
+        class="text-sm text-gray-300 sm:flex sm:items-center sm:justify-between"
+      >
+
+        <p class="mt-4 sm:mt-0">&copy; 2022 Prohealth Community Care Services.</p>
+      </div>
+
+      <p class="mt-8 text-xs text-gray-200">
+        Prohealth Community Care Services, take the first step.
+      </p>
+    </div>
   </div>
 </footer>
 </body>
 </html>
-
+<script>
+  ScrollReveal({ reset: true }, { delay: 500 }).reveal('.reveal', {scale: 0.8});
+  ScrollReveal({ reset: true }, { delay: 500 }).reveal('.delayreveal', {scale: 0.8});
+  ScrollReveal({ reset: true }, { delay: 1000 }).reveal('.delayreveal2', {scale: 0.8});
+  ScrollReveal({ reset: true }, { delay: 1500 }).reveal('.delayreveal3', {scale: 0.8});
+  </script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 <hidden class="hidden h-0 translate-x-0 duration-500 opacity-0 duration-200 scale-y-0 md:scale-y-100">
 
