@@ -3,7 +3,6 @@ import {
 	MOUSE,
 	Quaternion,
 	Spherical,
-	TOUCH,
 	Vector2,
 	Vector3
 } from 'https://prohealthccs.github.io/prohealthccs/three.js';
