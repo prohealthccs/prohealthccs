@@ -45,6 +45,52 @@
 
 
 <body class="bg-white overflow-x-hidden min-w-[100vw] max-w-screen">
+  <div id="modal" class="m-auto flex z-30 hidden w-screen md:translate-y-[150%] md:translate-x-[32%] place-content-center h-32  md:h-20 relative md:fixed">
+    <div class="hidden md:flex h-8 w-8 z-40 bg-violet-600 rounded-full absolute -translate-y-3 translate-x-24 animate-pulse">
+
+    </div>
+<div class="m-auto md:mr-32 absolute md:rounded-2xl md:border md:border-violet-100 bg-white p-4 md:p-8 md:shadow-lg h-20 md:h-auto">
+  <div class="items-center sm:flex">
+    <span
+      class="md:flex-col md:inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full hidden bg-violet-500 text-white"
+    >
+      <svg
+        class="h-3 w-3"
+        fill="currentColor"
+        viewbox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18 3a1 1 0 00-1.447-.894L8.763 6H5a3 3 0 000 6h.28l1.771 5.316A1 1 0 008 18h1a1 1 0 001-1v-4.382l6.553 3.276A1 1 0 0018 15V3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </span>
+
+    <p  class="hidden md:flex mt-3 text-lg font-medium sm:mt-0 sm:ml-3">
+      You've got a new message
+    </p>
+  </div>
+
+  <p class="text-center md:text-left md:mt-4 text-gray-500">
+   We're now hiring! 
+  </p>
+
+  <div class="mt-2 md:mt-6 sm:flex">
+    <a
+      class="inline-block w-full rounded-lg bg-gradient-to-tr from-violet-500 to-violet-600 px-5 py-3 text-center text-sm font-semibold text-white w-auto"
+      href="apply.html"
+    >
+      Take a Look
+    </a>
+
+    <div onclick="hiringmodalremove()" class="cursor-pointer mt-3 inline-block  rounded-lg bg-gray-50 px-5 py-3 text-center text-sm font-semibold text-gray-500 sm:mt-0 sm:ml-3 w-auto">
+      Mark as Read
+    </div>
+  </div>
+</div>
+</div>
 <header class="overflow-x-hidden overflow-y-hidden w-screen h-24 bg-white border-b-2 absolute">
     <div id="wrapper" class="max-w-screen-xl h-24 m-auto flex place-content-between">
         <ul id="left" class="mx-4 flex place-content-center">
@@ -89,7 +135,7 @@
         </ul>
     </div>
 </header>  
-<div id="menu" class="translate-y-24 z-40 flex md:hidden duration-300 ease-out translate-x-56 absolute rounded-bl-3xl  w-48 h-96 bg-slate-900 bg-opacity-95 backdrop-blur-sm right-0 flex-col">
+<div id="menu" class="translate-y-24 hidden z-40 flex md:hidden duration-300 ease-out translate-x-56 absolute rounded-bl-3xl  w-48 h-96 bg-slate-900 bg-opacity-95 backdrop-blur-sm right-0 flex-col">
 <div class="absolute right-4 top-5 font-bold text-white">
 
 <div class="my-8 flex flex-row">
@@ -230,16 +276,6 @@
           </nav>
         </div>
 
-        <div>
-          <p class="font-medium">Services</p>
-
-          <nav class="mt-4 flex flex-col space-y-2 text-sm text-gray-300">
-            <a class="hover:opacity-75" href="services.html/#supportcoordination"> Support Coordination </a>
-            <a class="hover:opacity-75" href="services.html/#disabilitysupport"> Disability Support </a>
-            <a class="hover:opacity-75" href="services.html/#specialistdisabilityaccomodation"> Specialist Disability Accommodation  </a>
-            <a class="hover:opacity-75" href="services.html/#communitynursingcare"> Community Nursing Care  </a>
-          </nav>
-        </div>
       </div>
     </div>
 
