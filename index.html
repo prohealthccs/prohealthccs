@@ -94,7 +94,7 @@
 
 
 <body class="bg-white overflow-x-hidden min-w-[100vw] max-w-screen">
-<header class="overflow-x-hidden overflow-y-hidden absolute w-screen h-24 bg-white border-b-2">
+<header class="overflow-x-hidden w-screen h-24 bg-white border-b-2">
     <div id="wrapper" class="flex place-content-between m-auto max-w-screen-xl h-24">
         <ul id="left" class="flex place-content-center mx-4">
             <li class="flex place-content-center m-auto">
@@ -106,8 +106,9 @@
         </ul>
         <ul id="right" class="flex right-0 m-auto mr-4">
             <li>
-            <a aria-label="Home" href="index.html" class="pointer-events-none"> <div class="hidden md:flex nav-active" >
+            <a aria-label="Home" href="index.html" class=" group"> <div class="hidden md:flex nav-active" >
                 <i class="m-auto fa-solid fa-house fa-xl"> </i>
+                <iframe class="duration-500 hidden group-hover:flex translate-y-0 absolute w-96 h-96 scale-50 border-2 z-50 group-hover:translate-y-4" loading="lazy" src="contact.html"> </iframe>
             </div></a>
           </li>
 
@@ -181,7 +182,7 @@
 </div>
 </div>
 </div>
-<section  class="px-8 w-screen min-h-screen bg-cover bg-gradient-to-tr from-white via-white to-white border-b-4 border-violet-500 -z-20" >
+<section  class="px-8 w-screen min-h-screen bg-cover bg-gradient-to-tr from-white via-white to-white  -z-20" >
     <div class="bg-cover m-auto min-h-screen max-w-[1920px]">
     <div id="wrapper" class="flex flex-row place-content-center m-auto max-w-screen-lg min-h-screen">
       <img alt="" src="img/bubble.webp" class=" absolute h-32 md:h-96 translate-y-[15vh]  md:translate-x-72 md:translate-y-[27vh] z-0 md:z-0">
@@ -189,7 +190,7 @@
             <h1 style="font-family: 'Paytone One', sans-serif;" class="z-0 mt-56 ml-0 text-5xl text-center text-transparent bg-clip-text bg-gradient-to-tr from-violet-400 via-violet-500 to-violet-500 duration-200 reveal md:mt-50 md:text-left md:text-7xl">
                 The services <br> you want, <br> the care you <br> need.
             </h1>
-            <a aria-label="Take the first step, contact us." href="contact.html" class=" duration-300 mb-48 shadow-2xl m-auto md:mx-0 mt-20  text-white hover:shadow-violet-500 hover:ring-[2px] ring-violet-500 bg-gradient-to-tr from-violet-500 via-violet-600 to-violet-500 text-md w-48 h-12 rounded-xl font-bold flex flex-row">
+            <a aria-label="Take the first step, contact us." href="contact.html" class=" duration-300 mb-48 shadow-2xl m-auto md:mx-0 mt-20  text-white hover:shadow-violet-500  ring-violet-500 bg-gradient-to-tr from-violet-500 via-violet-600 to-violet-500 text-md w-48 h-12 rounded-xl font-bold flex flex-row">
                 <p class="m-auto mr-1 ml-3 text-sm">Take the first step.</p> <i class="bg-clip-text text-transparent bg-gradient-to-tr from-yellow-200 to-yellow-300 fa-solid fa-arrow-up-right-from-square m-auto mr-[1.1rem]"></i>
             </a>
 
@@ -252,9 +253,9 @@
 
   </div>
 </div>
-<div class="w-screen bg-gradient-to-tr from-black via-slate-900 to-slate-500">
-  <div id="world" class="flex overflow-x-hidden flex-col m-auto w-screen max-w-screen-2xl min-h-screen shadow-2xl bg-slate-900 md:flex-row">
-    <div class=" absolute lg:relative bg-transparent lg:bg-black  z-30 w-screen lg:w-[50vw] h-screen  flex flex-col place-content-center">
+<div class="w-screen bg-gradient-to-tr from-black via-slate-900 to-slate-800">
+  <div id="world" class="flex overflow-x-hidden flex-col m-auto w-screen max-w-screen-2xl min-h-screen   md:flex-row">
+    <div class="order-2 absolute lg:relative bg-transparent   z-30 w-screen lg:w-[50vw] h-screen  flex flex-col place-content-center">
       <h2 style="font-family: 'Paytone One', sans-serif;" class="m-auto mb-4 text-7xl text-center text-white reveal md:text-5xl lg:text-8xl md:mb-8">
         Find us
       </h2>
@@ -263,9 +264,9 @@
       </p>
       <i class="hidden md:block mt-16 m-auto text-[0rem] md:text-xl text-white fa-solid fa-earth-oceania reveal "></i>
     </div>
-    <div class="flex overflow-x-hidden place-content-center h-screen bg-black"> 
+    <div class="flex overflow-x-hidden place-content-center h-screen "> 
 
-        <iframe scrolling="no" aria-label="Find us, Earth 3D render" class="p-4 rounded-xl pointer-events-none overflow-y-hidden brightness-[40%] lg:brightness-100 cursor-move overflow-x-hidden scale-100 m-auto w-screen lg:w-[50vw] h-screen reveal" src="https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sVictoria+Australia!6i7" loading="lazy">
+        <iframe scrolling="no" aria-label="Find us, Earth 3D render" class="p-10 rounded-xl pointer-events-none overflow-y-hidden brightness-[40%] lg:brightness-100 cursor-move overflow-x-hidden scale-100 m-auto w-screen lg:w-[50vw] h-screen reveal" src="https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sVictoria+Australia!6i7" loading="lazy">
 
         </iframe>
        
