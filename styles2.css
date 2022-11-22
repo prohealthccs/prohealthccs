@@ -1,12 +1,66 @@
-/* vietnamese */
-@font-face {
-  font-family: 'Paytone One';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/paytoneone/v18/0nksC9P7MfYHj2oFtYm2ChTigPvfiwq-FQc.woff2) format('woff2');
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+.custom-shape-divider-bottom-1669067396 {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
+
+.custom-shape-divider-bottom-1669067396 svg {
+  position: relative;
+  display: block;
+  width: calc(136% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-bottom-1669067396 .shape-fill {
+  fill: #8b5cf6;
+}
+
+.custom-shape-divider-top-1 {
+  position: absolute;
+
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1 svg {
+  position: relative;
+  display: inline block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1 .shape-fill {
+  fill: #0f172a;
+}
+
+.custom-shape-divider-top-1 {
+  position: absolute;
+
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1 svg {
+  position: relative;
+  display: inline block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1 .shape-fill {
+  fill: #0f172a;
+}
+
+
+
+
+
+
+
 /* latin-ext */
 @font-face {
   font-family: 'Paytone One';

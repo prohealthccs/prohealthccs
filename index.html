@@ -94,7 +94,7 @@
 
 
 <body class="bg-white overflow-x-hidden min-w-[100vw] max-w-screen">
-<header class="overflow-x-hidden w-screen h-24 bg-white border-b-2">
+<header class="overflow-x-hidden overflow-y-hidden absolute w-screen h-24 bg-white border-b-2">
     <div id="wrapper" class="flex place-content-between m-auto max-w-screen-xl h-24">
         <ul id="left" class="flex place-content-center mx-4">
             <li class="flex place-content-center m-auto">
@@ -108,7 +108,6 @@
             <li>
             <a aria-label="Home" href="index.html" class=" group"> <div class="hidden md:flex nav-active" >
                 <i class="m-auto fa-solid fa-house fa-xl"> </i>
-                <iframe class="duration-500 hidden group-hover:flex translate-y-0 absolute w-96 h-96 scale-50 border-2 z-50 group-hover:translate-y-4" loading="lazy" src="contact.html"> </iframe>
             </div></a>
           </li>
 
@@ -146,7 +145,7 @@
   <p class="order-2 m-auto">
     Home
   </p>
-  <a aria-label="Home" href="index.html" class="pointer-events-none"> <div class="flex place-content-center mx-2 w-12 h-12 text-violet-400 rounded-lg shadow-2xl bg-slate-200" >
+  <a aria-label="Home" href="index.html" class="pointer-events-none"> <div class="flex place-content-center mx-2 w-12 h-12 nav-active" >
     <i class="m-auto fa-solid fa-house fa-xl"> </i>
 </div></a>
 </div>
@@ -156,7 +155,7 @@
     Contact Us
   </p>
 
-<a  aria-label="Contact Us" href="contact.html" class="flex place-content-center mx-2 w-12 h-12 text-white bg-gradient-to-tr from-violet-500 to-violet-600 rounded-lg shadow-2xl duration-200 hover:text-violet-500 hover:from-slate-200 hover:to-slate-200 hover:rounded-xl" >
+<a  aria-label="Contact Us" href="contact.html" class="flex place-content-center mx-2 w-12 h-12 nav-inactive" >
    
   <i class="m-auto fa-solid fa-envelope fa-xl"> </i>
 </a>
@@ -166,7 +165,7 @@
   <p class="order-2 m-auto">
     Services
   </p>
-<a aria-label="Services" href="services.html" class="flex place-content-center mx-2 w-12 h-12 text-white bg-gradient-to-tr from-violet-500 to-violet-600 rounded-lg shadow-2xl duration-200 hover:text-violet-500 hover:from-slate-200 hover:to-slate-200 hover:rounded-xl" >
+<a aria-label="Services" href="services.html" class="flex place-content-center mx-2 w-12 h-12 nav-inactive" >
     <i class="m-auto fa-solid fa-circle-info fa-xl"> </i></a>
 </a>
 </div>
@@ -176,16 +175,16 @@
   <p class="order-2 m-auto">
     Apply
   </p>
-<a href="apply.html" aria-label="Contact Us" class="flex place-content-center mx-2 w-12 h-12 text-white bg-gradient-to-tr from-violet-500 to-violet-600 rounded-lg shadow-2xl duration-200 hover:text-violet-500 hover:from-slate-200 hover:to-slate-200 hover:rounded-xl" >
+<a href="apply.html" aria-label="Contact Us" class="flex place-content-center mx-2 w-12 h-12 nav-inactive" >
     <i class="m-auto fa-solid fa-envelope-open-text fa-xl"> </i>
 </a>
 </div>
 </div>
 </div>
-<section  class="px-8 w-screen min-h-screen bg-cover bg-gradient-to-tr from-white via-white to-white  -z-20" >
+<section  class="px-8 w-screen min-h-screen bg-cover bg-gradient-to-tr from-violet-200 via-white to-white  -z-20" >
     <div class="bg-cover m-auto min-h-screen max-w-[1920px]">
     <div id="wrapper" class="flex flex-row place-content-center m-auto max-w-screen-lg min-h-screen">
-      <img alt="" src="img/bubble.webp" class=" absolute h-32 md:h-96 translate-y-[15vh]  md:translate-x-72 md:translate-y-[27vh] z-0 md:z-0">
+      <img alt="" src="img/bubble.webp" class="rounded-[300%] absolute h-32 md:h-96 translate-y-[15vh]  md:translate-x-72 md:translate-y-[27vh] z-0 md:z-0">
         <div class="flex flex-col m-auto md:ml-4"> 
             <h1 style="font-family: 'Paytone One', sans-serif;" class="z-0 mt-56 ml-0 text-5xl text-center text-transparent bg-clip-text bg-gradient-to-tr from-violet-400 via-violet-500 to-violet-500 duration-200 reveal md:mt-50 md:text-left md:text-7xl">
                 The services <br> you want, <br> the care you <br> need.
@@ -202,9 +201,8 @@
 </section> 
 
 
-</div>
 
-<div class="w-screen bg-gradient-to-b to-gray-800 shadow-2xl from-slate-900 via-slate-900">
+<div class="w-screen bg-slate-900">
 <div id="features" class=" min-h-screen md:h-auto md:min-h-[384px] w-screen max-w-screen-xl m-auto  flex flex-col py-8 md:flex-row place-content-evenly md:place-content-center text-center">
   
   <div class="flex flex-col m-auto my-4 text-3xl font-semibold text-white drop-shadow-2xl md:text-8xl reveal">
@@ -230,6 +228,13 @@
   </div>
 </div>
 </div>
+
+<div class="hidden lg:flex custom-shape-divider-top-1">
+  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+  </svg>
+</div>
+
 <div id="about-us" class="px-8 w-screen min-h-screen bg-gradient-to-bl from-purple-500 via-violet-700 to-violet-800">
 
   <div  class="flex flex-col gap-16 place-content-center m-auto max-w-screen-2xl min-h-screen md:flex-row">
@@ -246,13 +251,39 @@
       </p>
       
     </div>
-      <div   class="hidden place-content-center px-8 m-auto mt-0 mb-0 w-screen h-2 drop-shadow-xl md:w-[50vw] md:h-screen lg:flex">
-        <img  alt="Woman, smiling, sitting in an office" src="img/office.jpg" class="xl:translate-x-20 lg:translate-x-0 md:translate-x-0 rounded-lg m-auto text-9xl text-yellow-400 shadow-2xl reveal fa-solid w-[50vw]">
+      <div   class="hidden place-content-center  px-8 m-auto mt-0 mb-0 w-screen h-2 drop-shadow-xl md:w-[50vw] md:h-screen lg:flex">
+        <img  alt="Woman, smiling, sitting in an office" src="img/office.jpg" class="translate-y-6 duration-300 hover:scale-110 max-w-[500px] xl:translate-x-20 lg:translate-x-0 md:translate-x-0 rounded-sm m-auto text-9xl text-yellow-400 shadow-2xl reveal fa-solid w-[50vw]">
 
       </div>
 
   </div>
 </div>
+
+
+<div class="hidden lg:flex -translate-y-[6.2rem] rotate-180 custom-shape-divider-bottom-1669067396">
+  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+  </svg>
+</div>
+
+<div class="w-screen min-h-[50vh] bg-violet-500 flex flex-col place-content-center">
+  <p style="font-family: 'Paytone One', sans-serif;" class="duration-300 reveal text-white m-auto text-center text-4xl sm:text-6xl md:text-8xl mb-6" >
+    Contact Us
+  </p>
+  <p class="reveal duration-300 font-bold m-auto text-white mb-0  text-xl sm:text-2xl md:text-3xl mt-0">
+    We'd love to hear from you.
+  </p>
+  <div class="flex flex-row gap-0 m-auto md:flex-col mt-8">
+
+    <a href="contact.html" class="ring-violet-500 focus:border-2 duration-300 mb-6 md:mb-16 shadow-2xl m-auto md:mx-0 mt-6 text-white hover:shadow-white bg-white text-md w-36 h-12 rounded-xl font-bold flex flex-row">
+      <p class="m-auto drop-shadow-2xl md:flex text-sm text-violet-500">Get in touch</p> <i class="text-violet-500 fa-solid fa-envelope m-auto mr-[1.1rem]"></i>
+  </a>
+
+</div>
+</div>
+
+
+
 <div class="w-screen bg-gradient-to-tr from-black via-slate-900 to-slate-800">
   <div id="world" class="flex overflow-x-hidden flex-col m-auto w-screen max-w-screen-2xl min-h-screen   md:flex-row">
     <div class="order-2 absolute lg:relative bg-transparent   z-30 w-screen lg:w-[50vw] h-screen  flex flex-col place-content-center">
@@ -266,7 +297,7 @@
     </div>
     <div class="flex overflow-x-hidden place-content-center h-screen "> 
 
-        <iframe scrolling="no" aria-label="Find us, Earth 3D render" class="p-10 rounded-xl pointer-events-none overflow-y-hidden brightness-[40%] lg:brightness-100 cursor-move overflow-x-hidden scale-100 m-auto w-screen lg:w-[50vw] h-screen reveal" src="https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sVictoria+Australia!6i7" loading="lazy">
+        <iframe scrolling="no" aria-label="Find us, Google maps " class="shadow-xl p-10 rounded-xl pointer-events-none overflow-y-hidden brightness-[40%] lg:brightness-100 cursor-move overflow-x-hidden scale-100 m-auto w-screen lg:w-[50vw] h-screen reveal" src="https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sVictoria+Australia!6i7" loading="lazy">
 
         </iframe>
        
