@@ -105,32 +105,32 @@
             </li>
         </ul>
         <ul id="right" class="flex right-0 m-auto mr-4">
-            <li>
-            <a aria-label="Home" href="index.html"> <div class="hidden duration-200 md:flex nav-inactive" >
-                <i class="m-auto fa-solid fa-house fa-xl"> </i>
+          <li class="nav-divider">
+
+          </li>
+          <li class="nav-text-container">
+            <a  aria-label="Home" href="index.html" class="nav-text"> Home <div class="hidden md:flex " >
+              
+          </div></a> 
+
+          <li class="nav-text-container">
+            <a  aria-label="Contact Us" href="contact.html" class="nav-text"> Contact Us <div class="hidden md:flex " >
+              
+          </div></a> 
+
+          <li class="nav-text-container">
+            <a  aria-label="Services" href="services.html" class="nav-text"> Services <div class="hidden md:flex " >
+              
+          </div></a> 
+
+            <li class="nav-text-container">
+              <a  aria-label="Apply" href="apply.html" class="nav-text"> Apply <div class="hidden md:flex " >
+                
             </div></a>
           </li>
 
             <li>
-            <a aria-label="Contact Us" href="contact.html" class="hidden md:flex nav-inactive" >
-                <i class="m-auto fa-solid fa-envelope fa-xl"> </i>
-            </a>
-          </li>
-
-            <li>
-            <a aria-label="Our Services" href="services.html" ><div class="hidden pointer-events-none md:flex nav-active" >
-                <i class="m-auto fa-solid fa-circle-info fa-xl"> </i>
-            </div></a>
-          </li>
-
-            <li>
-            <a aria-label="Apply" href="apply.html"> <div class="hidden md:flex nav-inactive" >
-                <i class="m-auto fa-solid fa-envelope-open-text fa-xl"> </i>
-            </div></a>
-          </li>
-
-            <li>
-            <div  onclick="openmenu()" class="z-[100] cursor-pointer md:hidden shadow-2xl duration-200 h-12 w-12 text-white hover:text-violet-500  bg-gradient-to-tr from-violet-500 to-violet-600 hover:from-slate-200 hover:to-slate-200 flex place-content-center rounded-lg hover:rounded-xl " >
+            <div  onclick="openmenu()" class="flex z-50 place-content-center w-12 h-12 text-white bg-gradient-to-tr from-violet-500 to-violet-600 rounded-lg shadow-2xl duration-200 cursor-pointer md:hidden hover:text-violet-500 hover:from-slate-200 hover:to-slate-200 hover:rounded-xl" >
                 <i id="menubutton" class="m-auto fa-solid fa-bars fa-xl"> </i>
             </div>
           </li>
@@ -204,95 +204,194 @@
     </div>
     <img src="img/ndisrp.png" class="bottom-0 m-auto mb-0 w-32 reveal">
   </div>
-</section> 
-<div class="flex place-content-center m-auto w-screen bg-slate-900">
-    <div id="wrapper" class="flex flex-col place-content-center p-16 m-auto max-w-screen-xl md:flex-row">
-        <div id="supportcoordination" class="flex flex-col m-auto  text-center basis-1/2">
-            <p style="font-family: 'Paytone One', sans-serif;" class="mt-8 mb-8 text-3xl text-violet-400 reveal"> 
-    
-                Support <br> Coordination
-    
-                
-            </p>
-            <p class="mx-2 md:mx-8 text-sm font-bold text-white reveal">
-                  Support Connection:  This involves providing short-term assistance to implement your NDIS plan, identifying service providers and negotiating Service Agreements. <br>
-                <br>
-                  Support Coordination: This includes longer-term support to build your capacity to navigate the complexity of services and supports you need from a range of providers. <br>
-                <br>
-                  Specialist Support Coordination: This is a higher level of support coordination. It is for people whose situations are more complex and who need specialist support. A specialist Support Coordinator will assist you to manage challenges in your support environment and ensuring consistent delivery of service. <br>
-            </p>
-        </div>
-       
-        <div id="disabilitysupport" class="flex flex-col m-auto  text-center basis-1/2">
-            <p style="font-family: 'Paytone One', sans-serif;" class="mt-8 mb-8 text-3xl text-violet-400 reveal"> 
-    
-                Disability <br> Support
-    
-                
-            </p>
-            <p class="mx-2 md:mx-8 font-bold text-white reveal">
-                 Assistance with home daily activities: Including cooking/meal preparation, personal hygiene, house cleaning, etc
-                <br>
-                 Community-based supports: including
-                facilitating community, social, educational and
-                recreational activities
-                <br>
-                 Health and wellbeing: our registered nurses
-                will look after your health and our disability
-                support workers will facilitate your
-                appointments with doctors and other allied
-                health care providers
-                <br>
-                 Assistance with daily tasks in group or
-                shared living arrangements
-            </p>
-        </div>
-        
+</section>
+
+<div class=" flex m-auto">
+  <div class=" border-b-4 border-violet-300 flex flex-col md:flex-row m-auto max-w-[1920px] w-screen">
+    <div class="basis-1/2 min-h-[50vh] flex place-content-center bg-violet-500 md:bg-slate-800">
+      <p style="font-family: 'Paytone One', sans-serif;" class="duration-300 text-4xl md:text-5xl text-center reveal text-slate-100 md:text-violet-400 m-auto" >
+        Disability support
+      </p>
     </div>
+    <div class="basis-1/2 p-8 bg-violet-500">
+      <div class="text-right h-8 w-8 mb-4 bg-slate-900  text-white flex place-content-center">
+        <i class="fa-solid fa-info  text-center m-auto "></i>
+      </div>
+
+      <p class="text-slate-100 font-bold mb-0  m-auto text-left rounded-sm bg-slate-900  w-fit p-2 ml-0 " >
+        Assistance with Home Daily Activities 
+        <div  class="duration-300 bg-slate-100 p-2 mb-4 mt-0 w-[100%] rounded-b-sm rounded-r-sm">
+          <li class="text-slate-900 font-bold ml-4 m-auto text-left text-sm">
+          Cooking/Meal Preperation
+        </li>
+        <li class="text-slate-900 font-bold ml-4 m-auto text-left  text-sm">
+          Personal Hygiene
+        </li>
+        <li class="text-slate-900 font-bold ml-4 m-auto text-left  text-sm">
+          House Cleaning, etc
+        </li></div>
+      </p>
+
+      <p class="text-slate-100 font-bold mb-0  m-auto text-left  rounded-sm bg-slate-900 mb-4 w-fit p-2 ml-0 " >
+          Health and Wellbeing 
+        <div  class="bg-slate-100 p-2 mt-0 w-[100%] rounded-b-sm rounded-r-sm">
+          <li class="text-slate-900 font-bold ml-4 m-auto text-left text-sm">
+          Care from Registered Nurses
+        </li>
+        <li class="text-slate-900 font-bold ml-4 m-auto text-left  text-sm">
+          Assistance with Medical Appointments by Disability Support Workers
+        </li>
+        <li class="text-slate-900 font-bold ml-4 m-auto text-left  text-sm">
+          Facilitation of Community, Social, Educational, and Recreational Activities
+        </li></div>
+      </p>
+
+    </div>
+  </div>
+
 
 </div>
 
-<div class="flex place-content-center m-auto w-screen bg-violet-500">
-    <div id="wrapper" class="flex flex-col place-content-center p-16 m-auto max-w-screen-2xl md:flex-row">
-        <div id="specialistdisabilityaccomodation" class="flex flex-col m-auto  text-center basis-1/2">
-            <p style="font-family: 'Paytone One', sans-serif;" class="mt-8 mb-8 text-3xl text-white reveal"> 
-    
-                Specialist Disability <br> Accommodation (SDA)
-    
-                
-            </p>
-            <p class="mx-2 md:mx-8 text-sm font-bold text-white reveal">
-                SDA refers to accommodation for those participants requiring specialist disability housing solutions. <br>
-                 <br> These accommodation help to assist with the delivery of supports catering for their extreme functional impairment and/or very high support needs. We can connect you with a purpose-built specialist disability accommodation that meets your needs and choice. <br>
-                <br>
-                Respite/Short Term Accommodation
-                STA (Short term Accommodation) including Respite: We provide accommodation for participants needing to live out of home for a short period of time. <br>
-                <br> Short term accommodation funding can be used for respite to support the participant and their careers. <br>
-                <br> It can also allows the carer a short break from their carer’s role.
-                MTA (Medium term Accommodation): We can support participants needing a place to stay till their long-term housing is ready.
-            </p>
-        </div>
-       
-        <div id="communitynursingcare" class="flex flex-col m-auto  text-center basis-1/2">
-            <p style="font-family: 'Paytone One', sans-serif;" class="mt-8 mb-8 text-3xl text-white reveal"> 
-    
-                Community <br> Nursing Care
-    
-                
-            </p>
-            <p class="mx-2 md:mx-8 font-bold text-white reveal">
-                General nursing assessment: monitoring of blood pressure, pulse, temperature, blood sugar levels, etc. <br>
-                <br> Post-acute care: we help you transition from the hospital to your home by providing the care and support you require while you recuperate. <br>
-                 <br> Medication management<br>
-             <br> Wound/stoma management<br>
-                <br>   Continence/catheter management<br>
-               <br>    Tracheotomy care etc <br>
-            </p>
-        </div>
-        
+<div class=" flex m-auto">
+  <div class=" border-b-4 border-violet-300 flex flex-col md:flex-row m-auto max-w-[1920px] w-screen">
+    <div class="basis-1/2  md:order-2 min-h-[50vh] flex place-content-center bg-violet-500 md:bg-slate-800">
+      <p style="font-family: 'Paytone One', sans-serif;" class="duration-300 text-4xl md:text-5xl text-center reveal text-slate-100 md:text-violet-400 m-auto" >
+        Support Coordination
+      </p>
     </div>
+    <div class="basis-1/2 p-8 bg-violet-500">
+      <div class="text-right h-8 w-8 mb-4 bg-slate-900  text-white flex place-content-center">
+        <i class="fa-solid fa-info  text-center m-auto "></i>
+      </div>
+
+      <p class="text-slate-100 font-bold mb-0  m-auto text-left rounded-sm bg-slate-900  w-fit p-2 ml-0 " >
+        Support Coordination 
+        <div  class="duration-300 bg-slate-100 p-2 mb-4 mt-0 w-[100%] rounded-b-sm rounded-r-sm">
+          <li class="text-slate-900 font-bold ml-4 m-auto text-left text-sm">
+          Short-term assistance to implement your NDIS plan
+        </li>
+        <li class="text-slate-900 font-bold ml-4 m-auto text-left  text-sm">
+        Identifying service providers and negotiating Service Agreements
+        </li>
+        <li class="text-slate-900 font-bold ml-4 m-auto text-left  text-sm">
+          Long-term support to navigate complex services and supports from multiple providers
+        </li></div>
+      </p>
+
+      <p class="text-slate-100 font-bold mb-0  m-auto text-left  rounded-sm bg-slate-900 mb-4 w-fit p-2 ml-0 " >
+        Specialist Support Coordination 
+        <div  class="bg-slate-100 p-2 mt-0 w-[100%] rounded-b-sm rounded-r-sm">
+          <li class="text-slate-900 font-bold ml-4 m-auto text-left text-sm">
+            Higher level of support coordination for complex situations
+        </li>
+        <li class="text-slate-900 font-bold ml-4 m-auto text-left  text-sm">
+          Assistance to manage challenges and ensure consistent delivery of service by a Specialist Support Coordinator
+        </li>
+        </div>
+      </p>
+
+    </div>
+  </div>
+
 
 </div>
+
+
+<div class=" flex m-auto">
+  <div class=" border-b-4 border-violet-300 flex flex-col md:flex-row m-auto max-w-[1920px] w-screen">
+    <div class="basis-1/2 min-h-[50vh] flex place-content-center bg-violet-500 md:bg-slate-800">
+      <p style="font-family: 'Paytone One', sans-serif;" class="duration-300 text-4xl md:text-5xl text-center reveal text-slate-100 md:text-violet-400 m-auto" >
+        Community Nursing Care 
+      </p>
+    </div>
+    <div class="basis-1/2 p-8 bg-violet-500">
+      <div class="text-right h-8 w-8 mb-4 bg-slate-900  text-white flex place-content-center">
+        <i class="fa-solid fa-info  text-center m-auto "></i>
+      </div>
+
+      <p class="text-slate-100 font-bold mb-0  m-auto text-left rounded-sm bg-slate-900  w-fit p-2 ml-0 " >
+        General Nursing Care 
+        <div  class="duration-300 bg-slate-100 p-2 mb-4 mt-0 w-[100%] rounded-b-sm rounded-r-sm">
+          <li class="text-slate-900 font-bold ml-4 m-auto text-left text-sm">
+            Monitoring of Blood Pressure, Pulse, Temperature, Blood Sugar Levels, etc.
+        </li>
+        <li class="text-slate-900 font-bold ml-4 m-auto text-left  text-sm">
+          Assistance with transition from hospital to home
+        </li>
+        <li class="text-slate-900 font-bold ml-4 m-auto text-left  text-sm">
+          Care and support during recovery
+        </li>
+        <li class="text-slate-900 font-bold ml-4 m-auto text-left  text-sm">
+          Medication Management
+        </li>
+        <li class="text-slate-900 font-bold ml-4 m-auto text-left  text-sm">
+          Continence/Catheter Management
+        </li>
+        <li class="text-slate-900 font-bold ml-4 m-auto text-left  text-sm">
+          Tracheotomy Care, etc
+        </li>
+      </div>
+      </p>
+
+      </p>
+
+    </div>
+  </div>
+
+
+</div>
+
+
+<div class=" flex m-auto">
+  <div class=" border-b-4 border-violet-300 flex flex-col md:flex-row m-auto max-w-[1920px] w-screen">
+    <div class="basis-1/2  md:order-2 min-h-[50vh] flex place-content-center bg-violet-500 md:bg-slate-800">
+      <p style="font-family: 'Paytone One', sans-serif;" class="duration-300 text-4xl md:text-5xl text-center reveal text-slate-100 md:text-violet-400 m-auto" >
+        Specialist Disability Accommodation
+      </p>
+    </div>
+    <div class="basis-1/2 p-8 bg-violet-500">
+      <div class="text-right h-8 w-8 mb-4 bg-slate-900  text-white flex place-content-center">
+        <i class="fa-solid fa-info  text-center m-auto "></i>
+      </div>
+
+      <p class="text-slate-100 font-bold mb-0  m-auto text-left rounded-sm bg-slate-900  w-fit p-2 ml-0 " >
+        Specialist Housing 
+        <div  class="duration-300 bg-slate-100 p-2 mb-4 mt-0 w-[100%] rounded-b-sm rounded-r-sm">
+          <li class="text-slate-900 font-bold ml-4 m-auto text-left text-sm">
+            Specialist housing solutions for extreme functional impairment and/or high support needs
+        </li>
+        <li class="text-slate-900 font-bold ml-4 m-auto text-left  text-sm">
+          Connection to purpose-built accommodation that meets your needs
+        </li>
+        <li class="text-slate-900 font-bold ml-4 m-auto text-left  text-sm">
+          Long-term support to navigate complex services and supports from multiple providers
+        </li></div>
+      </p>
+
+      <p class="text-slate-100 font-bold mb-0  m-auto text-left  rounded-sm bg-slate-900 mb-4 w-fit p-2 ml-0 " >
+        Respite & Short-Medium term Accommodation
+        <div  class="bg-slate-100 p-2 mt-0 w-[100%] rounded-b-sm rounded-r-sm">
+          <li class="text-slate-900 font-bold ml-4 m-auto text-left text-sm">
+            Accommodation for short-term stays
+        </li>
+        <li class="text-slate-900 font-bold ml-4 m-auto text-left  text-sm">
+          Funding for respite for participant and carer
+        </li>
+        <li class="text-slate-900 font-bold ml-4 m-auto text-left text-sm">
+          Short-term accommodation while waiting for long-term housing
+        </li>
+        </div>
+      </p>
+
+    </div>
+  </div>
+
+
+</div>
+
+
+
+
 
 <footer
   aria-label="Site Footer"
